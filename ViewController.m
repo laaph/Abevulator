@@ -18,6 +18,7 @@
 	[OriginalGravity setDelegate:self];
 	[FinalGravity setDelegate:self];	
 }
+
 - (void)controlTextDidChange:(NSNotification *)aNotification
 {
 	double og; double fg;
