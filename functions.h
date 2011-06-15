@@ -27,5 +27,5 @@ double abv(double og, double fg) {
 }
 
 double abw(double og, double fg) {
-	return (abv(og, fg) / 0.789);
+	return (abv(og, fg) * 0.789);
 }
